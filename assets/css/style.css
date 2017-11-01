@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+ 
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: black;
+  background: #fff;
+}
+.box {
+  width: 800px
+  height: 780px;
+}
+
+.aboutbutton {float: right;
+  width: 120px;
+  color: #BDC3C7;
+  background: #fff;
+  font-size: 24px;
+  font-family: Arial;
+
+}
+header {
+  padding: 20px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+h1 {
+  height: 100px;
+  width: 250px;
+  margin: 0;
+  padding: 20px;
+  margin-left: 20px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  background: #138D75;
+}
+
+h2 {
+  font-size: 24px;
+
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+    
+}
+
+#portfolio {float: left;
+  width: 33%;
+  color: #fff;
+  background: #888;
+}
+
+#contact {float: left;
+  width: 33%;
+  color: #fff;
+  background: #666;
+}
+
+#full {
+  padding: 20px;
+  background: #eee;
+  color: black;
+  height: 250px;
+  width: 100%;
+  overflow: auto;
+}
+
+#division {
+  background: #6ea3da;
+  height: 50px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+aside {
+  float: left;
+  background: #fff;
+  color: black;
+  width: 250px;
+  height: 200px;
+  margin-left: 50px;
+  border: 1px solid#eee;
+  padding: 20px;
+
+}
+
+footer {
+  clear: both;
+  padding: 20px;
+  background: #ccc;
+
+}
+
+
+
+
+
+a {
+  color: #d21034;
+}
+
+
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
