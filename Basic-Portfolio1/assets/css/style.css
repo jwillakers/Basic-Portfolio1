@@ -1,0 +1,316 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica Neue, Helvetica, Georgia, sans-serif;
+  font-color: #77777;
+
+}
+.wrapper {position: relative;
+  background-image: url("../images/cork-wallet.png");
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 50px;
+  
+
+}
+.backgroundcontent {position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-height: 100%;
+  
+}
+
+.aboutmebox {position: relative;
+  display: inline-block;
+  width: 650px;
+  height: auto;
+  margin-left: 100px;
+  top: 28px;
+  background-color: #fff;
+  border: solid .2px #BDC3C7;
+  padding: 20px;
+  padding-bottom: 50px;
+
+}
+
+.mainheader {display: block;
+  width: 100%;
+  background: #fff;
+  height: 84px;
+  border-bottom: solid #cccccc;
+  border-width: 2px;
+}
+
+.logo:hover{
+  background: #BDC3C7;
+}
+
+.logo {position: relative;
+  height: 82px;
+  width: 300px;
+  padding: 20px;
+  margin-left: 100px;
+  background: #4aaaa5;
+}
+  h1{
+    font-family: "Georgia Bold";
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+
+}
+
+#about {position: absolute;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 16px;
+  color: #777777;
+  margin-top: -40px;
+  right: 300px;
+}
+
+#portfolio {position: absolute;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 16px;
+  color: #777777;
+  margin-top: -40px;
+  right: 200px;
+}
+
+#contact {position: absolute;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 16px;
+  color: #777777;
+  margin-top: -40px;
+  right: 100px;
+
+}
+
+h2:hover {
+  color: #BDC3C7;
+}
+h2 {
+  margin-left: 30px;
+  color: #4aaaa5;
+  font-family: "Georgia Bold";
+  font-size: 32px;
+}
+
+.line-separator {
+  width: 90%;
+  border-top: 2px solid #BDC3C7;
+  margin: 20px auto;
+  padding: 10px;
+
+} 
+
+#about:hover {
+  color: #4aaaa5;
+}
+#portfolio:hover {
+  color: #4aaaa5;
+
+}
+#contact:hover {
+  color: #4aaaa5;
+
+}
+
+p {position: relative;
+  text-align: left;
+  margin-left: 30px;
+  line-height: 20px;
+  width: 90%;
+  font-size: 14px;
+  font-family: Arial;
+  color: 777777;
+
+
+}
+img {float: left;
+  padding: 0px;
+  width: 220px;
+  height: 210px;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-top: 0px;
+
+}
+
+.connectbox {position: absolute;
+  display: inline-block;
+  width: 270px;
+  height: 180px;
+  right: 100px;
+  top: 28px;
+  background-color: #fff;
+  border: solid .2px #BDC3C7;
+  padding: 20px, 10px;
+ 
+
+}
+
+#github {display: relative;
+  margin-left: 40px;
+  margin-top: -3px;
+  width: 50px;
+  height: auto;
+}
+
+#linkedin {display: relative;
+  margin-left: 0px;
+  margin-top: -3px;
+  width: 50px;
+  height: auto;
+
+}
+
+#stack {display: relative;
+  margin-left: 0px;
+  margin-top: -3px;
+  width: 50px;
+  height: auto;
+}
+
+h3:hover {
+  color: #BDC3C7;
+}
+
+h3 {
+  text-align: center;
+  color: #4aaaa5;
+  font-family: "Georgia Bold";
+  font-size: 18px;
+  margin-top: 20px;
+
+}
+
+h4 {
+  text-align: left;
+  color: black;
+  font-family: Arial;
+  font-size: 14px;
+  margin-left: 30px;
+ 
+}
+
+#footer {
+  position: sticky;
+  left: 0; right: 0; bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #666666;
+  border-top: solid #4aaaa5;
+  border-width: 6px;
+  margin-top: 80px;
+ 
+
+ 
+ }
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial;
+  color: white;
+  line-height: 40px;
+}
+    
+
+
+li {
+  text-align: left;
+  font-family: Arial;
+  font-size: 14px;
+  margin-left: 30px;
+
+  
+}
+
+text {display: relative;
+  color: #fff;
+  width: 90%;
+  height: 80px;
+  border: solid .5px #BDC3C7;
+  margin: 6px auto;
+  padding: 12px;
+  font-family: Arial;
+  color: #BDC3C7;
+  font-size: 14px;
+}
+
+input[type=text]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 4px 30px 20px 30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  
+}
+
+.button:hover{
+  color: #F89B4D;
+}
+
+.button {position: relative;
+  width: 100px;
+  height: auto;
+  background: #4aaaa5;
+  font-family: Arial;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.image-container {display: block;
+  height: 600px;
+  margin-top: 20px;
+  width: 600px;
+  padding: 15px;
+  background: green;
+
+}
+
+img {display: block;
+  position: relative;
+  width: 240px;
+  height: auto;
+  margin: 10px;
+  margin-left: 35px;
+  
+ 
+ }
+
+
+img:hover {
+  -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 20px #ccc;
+
+}
+
+th {position: absolute;
+  text-align: center;
+  background: #4aaaa5;
+  width: 240px;
+  height: 24px;
+  margin: -40px;
+  margin-left: 35px;
+  line-height: 20px;
+  z-index: 3;
+  font: Geoorgia;
+  font-size: 18px;
+  color: #eee;
+
+  
+ 
+ }
+
+
+    
