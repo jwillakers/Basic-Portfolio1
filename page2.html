@@ -8,67 +8,71 @@
 		
 
 </head>
+<body>
 
 	<!-- opening of nav bar -->
-<nav>
-		<div class="mainheader">
-		<div class= "logo">
-			<h1>Jennifer Williams</h1></div>
-			<a href="page3.html" id="about">About</a>
-    		<a href="page2.html" id="portfolio">Portfolio</a>
-    		<a href="page4.html" id="contact">Contact</a>
-		
-		</div>
-		<!-- </div> -->
-	
-</nav>
-<!-- closing of nav bar -->
-	
+<header id="masthead">
+	<div class="container">
+		<a href="index.html" id="logo">Jennifer Williams</a>
+    		<nav>
+    			<a href="index.html">About</a>
+    			<a href="page2.html">Portfolio</a>
+    			<a href="page4.html" id="contact">Contact</a>
+
+
+			</nav>
+	</div>
+</header>
 
 <!-- opening of about me -->
-<body>
- <div class="wrapper">
-	<div class="backgroundcontent"> 
-    	<section class="aboutmebox">
-    			<h2>Portfolio</h2>
-    			<div class="line-separator"></div>
-    			
-    	<table>
-    		<tr>
-    		  <th>Cityscapes</th>
-    			<td><img src="assets/images/city.jpg"></td>
-    		  <th>Animals</th>
-    			<td><img src="assets/images/deer.jpg"></td></tr>
-    		<tr> 
-    			<th>Landscapes</th>
-    			<td><img src="assets/images/trees.jpg"></td>
-    			<th>Food Styling</th>
-    			<td><img src="assets/images/veggies.jpg"></td></tr>
-    	</table>
-		</section>
-	</div>
+<div id="main-container" class="container">
+ 	<section class="main-container">
+    	<h1>Portfolio</h1>
+
+    	<div class="work">
+    		<img src="assets/images/city.jpg" class="auth-image" alt="Jennifer Williams">
+
+    		<h3>City Pictures</h3>
+    	</div>	
+    	<div class="work">
+    		<img src="assets/images/deer.jpg" class="auth-image" alt="Animal Pictures">
+
+    		<h3>Animal Picture</h3>
+		</div>
+    	<div class="work">
+    		<img src="assets/images/trees.jpg" class="auth-image" alt="Landscape Pictures">
+
+    		<h3>Landscape Pictures</h3>
+		</div>
+    	<div class="work">
+    		<img src="assets/images/veggies.jpg" class="auth-image" alt="Food Pictures">
+
+    		<h3>Food Pictures</h3>
+    	</div>
+	</section>
+
 
 <!-- opening of connect with me -->
-		<div class="connectbox">
-
-			<h3>Connect With Me</h3>
-			<div class="line-separator"></div>
-
-			<div class="connect"><img src="assets/images/github.png" id= "github"></div>
+	<section class="sidebar">
+		<div id="connect">
+			<h2>Connect With Me</h2>
+		
+				<img src="assets/images/github.png" class="social" alt="Github">
 	
-			<div class="connect"><img src="assets/images/linkedin-icon.png" id= "linkedin"></div>
+				<img src="assets/images/linkedin-icon.png" class= "social" alt="Linkedin">
 	
-			<div class="connect"><img src="assets/images/stackoverflow.png" id= "stack"></div>
- </div>
-</body>	
-
+				<img src="assets/images/stackoverflow.png" class= "social" alt="Stack Overflow">
+ 		</div>
+ 	</section>
+</div>
+</body>
+<!-- footer -->
 <footer>
 
-		<div id="footer">
-			<h4 class="copyright">@2017 Jennifer Williams</h4>
-			<div style:'clear: both"></div>
+		<div class="container">
+			&copy; Copyright 2017 Jennifer Williams
 		</div>
-</div>
+
 </footer>
 </html>
 <!-- End -->
